@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact And Query Form"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edt_project_name"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/lightgray"
+                    android:hint="Name "
+                    android:padding="5dp"
+                    android:textStyle="bold" />
+
+
+
+                <EditText
+                    android:id="@+id/edt_mail"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/lightgray"
+                    android:hint="Enter E-mail"
+                    android:textStyle="bold"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp" />
+
+
+                <EditText
+                    android:id="@+id/edt_mobile"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/lightgray"
+                    android:hint="Enter mobile no."
+                    android:textStyle="bold"
+                    android:inputType="text"
+                    android:padding="5dp" />
+
+                <EditText
+                    android:id="@+id/edt_feedback"
+                    android:layout_width="300dp"
+                    android:layout_height="230dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/lightgray"
+                    android:gravity="left"
+                    android:hint=" Insert your query"
+                    android:padding="5dp"
+                    android:textStyle="bold" />
+
+
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_enquiry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#339FCC"
+        android:padding="5dp"
+        android:height="30dp"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

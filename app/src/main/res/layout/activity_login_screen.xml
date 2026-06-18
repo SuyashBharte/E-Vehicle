@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        tools:context=".LoginScreen">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electric Vehical \nInformation App"
+        android:textAlignment="center"
+        android:textColor="#4E4E4E"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/evlogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sign In"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="277dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boarder"
+        android:hint="Email :"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edt_pass"
+        android:layout_width="277dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boarder"
+        android:hint="Password :"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="271dp"
+        android:layout_height="55dp"
+        android:background="#009688"
+        android:layout_marginTop="10dp"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="139dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Don't have account?"
+        android:textColor="#A7A7A7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="135dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Register Here"
+            android:textColor="#3BA8BE"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    </LinearLayout>
+
+
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView8"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="228dp"-->
+<!--        android:layout_marginTop="6dp"-->
+<!--        android:layout_marginEnd="70dp"-->
+<!--        android:text="Forgot Password?"-->
+<!--        android:textColor="#3BA8BE"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/button4"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/txtPassword" />-->
+
+</LinearLayout>
+
+
+
+
