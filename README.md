@@ -30,8 +30,7 @@ An Android application developed as a **Diploma Final Year Project** that provid
 | Networking | Retrofit 2.9.0 + Gson |
 | Image Loading | Glide 4.15.0 |
 | UI Components | Material Design, RecyclerView, CardView, SwipeRefreshLayout |
-| Ads | Google AdMob |
-| Progress HUD | KProgressHUD |
+
 
 ---
 
@@ -121,7 +120,7 @@ app/src/main/
 ## 👨‍💻 Author
 
 **Suyash Bharte**
-Diploma Final Year Project — Computer Engineering
+
 
 ---
 
